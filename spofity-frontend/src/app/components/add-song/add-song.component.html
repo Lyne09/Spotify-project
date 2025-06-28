@@ -1,0 +1,32 @@
+<div class="add-song-form">
+  <h2>Ajouter une chanson</h2>
+  <form (ngSubmit)="addSong()">
+    <div>
+      <label for="title">Titre :</label>
+      <input id="title" [(ngModel)]="newSong.title" name="title" required />
+    </div>
+
+    <div>
+      <label for="artist">Artiste :</label>
+      <input id="artist" [(ngModel)]="newSong.artist" name="artist" required />
+    </div>
+
+    <div>
+      <label for="genre">Genre :</label>
+      <input id="genre" [(ngModel)]="newSong.genre" name="genre" required />
+    </div>
+
+    <div>
+      <label for="duration">Durée (en secondes) :</label>
+      <input
+        id="duration"
+        type="number"
+        [(ngModel)]="newSong.duration"
+        name="duration"
+        required
+      />
+    </div>
+
+    <button type="submit">Ajouter</button>
+  </form>
+</div>
