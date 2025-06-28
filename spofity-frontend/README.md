@@ -62,7 +62,7 @@ Données visualisées avec des graphiques dans Power BI
 bash
 Copier
 Modifier
-git clone https://github.com/votre-utilisateur/spotify-project.git
+git clone https://github.com/Lyne09/Spotify-project.git
 cd spotify-project
 2. Lancer le backend
 bash
